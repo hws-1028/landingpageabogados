@@ -6,6 +6,17 @@ Landing page del bufete de abogados, con una estética premium, editorial y sobr
 
 0.0.0
 
+## Secciones de la página
+
+- **Header** — menú de navegación y botón "Consulta tu caso".
+- **Hero** — presentación principal.
+- **Nosotros** — carrusel de imágenes y texto institucional.
+- **Servicios** — grilla con los servicios del despacho.
+- **Equipo** — carrusel con los integrantes del equipo.
+- **Contacto** — CTA de ancho completo con `fondo.png` de fondo y un botón que abre el modal de consulta.
+- **Modal** — formulario de contacto (consulta / PQRS / mensaje).
+- **Footer** — datos de contacto y redes sociales.
+
 ## Tecnologías
 
 - **React** 19.2.8
@@ -63,5 +74,12 @@ npm run lint
 ## Estructura del proyecto
 
 - `src/components/` — componentes de la página (Header, Hero, AboutUs, Services, Team, Contact, Modal, Footer)
-- `src/assets/` — imágenes e iconos
-- `src/db/` — datos de los servicios y el equipo
+- `src/assets/` — imágenes e iconos (`fondo.png`, `Logo.png`, `imagen.jpeg`, `icons/`)
+- `src/db/` — datos de los servicios (`servicesData.ts`) y el equipo (`teamData.ts`)
+- `src/App.tsx` — composición principal de la aplicación
+- `src/main.tsx` — punto de entrada
+- `src/index.css` — variables, reset y estilos globales
+
+## Notas
+
+- El formulario de contacto vive en el `Modal`; el botón del CTA de la sección de contacto abre ese modal en modo "consulta".
