@@ -2,6 +2,8 @@
 
 Landing page del bufete de abogados, con una estética premium, editorial y sobria basada exclusivamente en negro, blanco y dorado.
 
+> **Nota:** Este repositorio corresponde a una copia de referencia del proyecto desarrollado. El repositorio oficial y de producción pertenece al cliente.
+
 ## Versión
 
 0.0.0
