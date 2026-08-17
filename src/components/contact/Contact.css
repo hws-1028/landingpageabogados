@@ -1,0 +1,126 @@
+/* =========================
+   CONTACT SECTION (CTA)
+========================= */
+
+.contact-section {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    padding: 130px 24px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(rgba(20, 27, 32, 0.55), rgba(20, 27, 32, 0.55)),
+        url("../../assets/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* =========================
+   CTA CONTENIDO
+========================= */
+
+.contact-cta {
+    position: relative;
+    z-index: 1;
+
+    width: min(900px, 100%);
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 22px;
+}
+
+.contact-cta h2 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(30px, 4vw, 48px);
+    font-weight: 400;
+    line-height: 1.12;
+    color: #ffffff;
+}
+
+.contact-cta p {
+    margin: 0;
+    max-width: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1f1f1;
+}
+
+/* =========================
+   BOTÓN
+========================= */
+
+.contact-cta__button {
+    margin-top: 8px;
+    padding: 16px 42px;
+
+    background: #c9a34e;
+    color: #000000;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+        background 0.3s ease,
+        transform 0.25s ease;
+}
+
+.contact-cta__button:hover {
+    background: #d8b05c;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+    .contact-section {
+        padding: 90px 24px;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 70px 20px;
+    }
+
+    .contact-cta {
+        gap: 18px;
+    }
+
+    .contact-cta h2 {
+        font-size: 28px;
+    }
+
+    .contact-cta p {
+        font-size: 14px;
+    }
+
+    .contact-cta__button {
+        width: 100%;
+        max-width: 320px;
+        padding: 15px 24px;
+        font-size: 14px;
+    }
+}
