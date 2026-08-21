@@ -1,4 +1,4 @@
-# Giraldo Leguizamón Abogados y Asociados SAS
+# Landing Page para Abogados
 
 Landing page del bufete de abogados, con una estética premium, editorial y sobria basada exclusivamente en negro, blanco y dorado.
 
